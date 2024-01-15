@@ -21,8 +21,10 @@ body {
   font-family: font-family: 'Happy Monkey', system-ui;
 font-family: 'Inter', sans-serif;
 font-family: 'Lexend Deca', sans-serif;
-font-family: 'Orbitron', sans-serif;;
+font-family: 'Orbitron', sans-serif;
 }
+
+
 h1 {
   color: var(--White);
 }
