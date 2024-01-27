@@ -1,6 +1,19 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .outer-background {
+    background-color: var(--Very--dark--blue);
+    padding: 20px;
+  }
+  .inner-background {
+    background-color: var(--Dark--desaturated--blue);
+    border: 2px solid silver;
+    padding: 15px;
+  }
 
   :root {
     --Very--dark--blue: hsl(233, 47%, 7%);
