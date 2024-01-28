@@ -1,19 +1,41 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
-  .outer-background {
-    background-color: var(--Very--dark--blue);
-    padding: 20px;
-  }
-  .inner-background {
-    background-color: var(--Dark--desaturated--blue);
-    border: 2px solid silver;
-    padding: 15px;
-  }
+body {
+  width: 375px;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  color: white;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.text {
+  color: var(--Slightly);
+}
+.highlighted {
+  color: var(--Soft--violet);
+}
+
+
+
+.outer-background {
+  background-color: var(--Very--dark--blue);
+  padding: 20px;
+}
+.inner-background {
+  background-color: var(--Dark--desaturated--blue);
+  padding: 10px;
+  border: 2px dotted white;
+}
+
+
+
+
+
+
 
   :root {
     --Very--dark--blue: hsl(233, 47%, 7%);
