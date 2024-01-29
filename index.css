@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+.img {
+
+}
+
 .left {
   color: white;
   text-align: center;
@@ -28,7 +32,6 @@ body {
 .inner-background {
   background-color: var(--Dark--desaturated--blue);
   padding: 10px;
-  border: 2px dotted white;
 }
 
 
