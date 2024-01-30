@@ -2,13 +2,13 @@
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 body {
-  width: 375px;
+
   margin: 0;
   padding: 0;
 }
 
 .img {
-
+width: 40%;
 }
 
 .left {
@@ -28,13 +28,26 @@ body {
 .outer-background {
   background-color: var(--Very--dark--blue);
   padding: 20px;
+  width: 100%;
 }
 .inner-background {
   background-color: var(--Dark--desaturated--blue);
   padding: 10px;
 }
 
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+.inline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
 
+}
 
 
 
