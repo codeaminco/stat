@@ -37,13 +37,13 @@ width: 40%;
 
 .parent-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
 }
 .inline {
   display: flex;
-  justify-content: center;
+  justify-content: ;
   align-items: center;
   width: 40%;
 
